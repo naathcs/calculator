@@ -6,6 +6,7 @@ A simple calculator created in Python to practice library imports and array usag
   - [Views](#views)
   - [About](#about)
   - [Process Breakdown](#process-breakdown)
+  - [How to Run](#how-to-run)
   - [Tutorial Source](#tutorial-source)
     - [Links](#links)
   - [Author](#author)
@@ -44,6 +45,33 @@ For the library import, the attributes `Tk, Entry, Button, StringVar` were used 
 <br>
 To add the buttons in the correct location, I attempted to use a pre-algebra "trick" to calculatea the correct location of each item in the array inside the screen.
 
+## How to Run
+
+Python Version: 3.13.7
+
+```
+# Download the code onto a preferred folder.
+```
+```
+# Open the terminal console and navigate to the folder where the file was downloaded.
+```
+``` 
+# Create the Virtual Environment .venv inside the folder where the code is.
+python3 -m venv .venv
+```
+```
+# Activate the .venv environment.
+source .venv/bin/activate
+```
+```
+# (OPTIONAL) Once activated, you can look for the exact location of the file inside the folder
+find . -name calculator.py
+```
+```
+# Run the Code
+python3 calculator.py
+```
+
 ## Tutorial Source
 
 [![Watch the video](https://i.ytimg.com/vi/6CZB6VTy3Hg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDfn9vsWCjHHRYxN9CEdzo9EW-O4w)](https://youtu.be/6CZB6VTy3Hg?si=fNL9mxVuoap-CKxb)
@@ -56,4 +84,5 @@ These are the links that were used as reference and guide to adapt the original 
 
 ## Author
 
-- Website - [Github](https://github.com/naathcs)
+- Developed by Nathalia Santos 🐉<br><br>
+[![LinkedIn Badge](https://img.shields.io/badge/-Nathalia_Santos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/naathcs/)](https://www.linkedin.com/in/naathcs/)
